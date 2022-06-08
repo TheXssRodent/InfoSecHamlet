@@ -1,18 +1,4 @@
 {
-  "name": "HelmetJs",
-  "version": "3.21.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Pranjal Srivastava",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-  }
-}
-{
 	"name": "fcc-infosec-challenges",
 	"version": "0.0.1",
 	"description": "fcc backend boilerplate",
@@ -21,7 +7,8 @@
 		"start": "node myApp.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"helmet": "3.21.3"
 	},
 	"keywords": [
 		"node",
